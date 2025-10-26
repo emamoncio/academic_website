@@ -468,7 +468,7 @@
                 greeting: "About",
                 intro: "Egbert Amoncio is a researcher at Goethe University Frankfurt, where his work examines the visual dimensions of entrepreneurship and innovation—how colors, designs, and interfaces shape markets, meaning, and value. His broader goal is to advance inclusive and sustainable systems of innovation, bridging the creative economy with policy and technology.",
                 description: "Integrating economics, computer vision, law, and design, his research produces interdisciplinary insights that resonate with both academic and institutional audiences. His work has appeared in leading journals such as Research Policy and the Entrepreneurship Research Journal. In recognition of his policy relevance and impact, he was appointed as a Fellow at the World Intellectual Property Organization (WIPO)—a one-year fellowship that was later extended.",
-                education: "Egbert earned his Ph.D. in Economics (summa cum laude) and has collaborated with several international organizations, including UNCTAD, the Asian Development Bank (ADB), and GIZ, where he continues to advise on data-driven approaches to intellectual property and creative-economy policy."
+                education: "Egbert earned his Ph.D. in Economics (summa cum laude) and has collaborated with several international organizations, including United Nations Conference on Trade and Development (UNCTAD), the Asian Development Bank (ADB), and German Corporation for International Cooperation (GIZ), where he continues to advise on data-driven approaches to intellectual property and creative-economy policy."
             },
 
             teaching: {
@@ -477,7 +477,7 @@
                 ],
                 masters: [
                     "Entrepreneurship in Emerging Economies (So 19, So 20)",
-                    "East Asia: Then and Now"
+                    "East Asia: Then and Now (So 18)"
                 ],
                 phd: [
                     "Research in Innovation: Recent Developments in Theory and Methods (Wi 20/21, So 22, Wi 23/24)"
@@ -866,22 +866,17 @@
             // Papers Data - Updated with all papers from GitHub
             const publishedPapers = [
                 {
-                    filename: 'CVforRP.pdf',
+                    
                     title: 'Using Computer Vision to Measure Design Similarity: An Application to US Design Rights',
                     url: 'https://raw.githubusercontent.com/emamoncio/academic_website/main/papers/published/CVforRP.pdf'
                 },
                 {
-                    filename: 'DigitalPlatformsGeogDist.pdf',
+                    
                     title: 'Digital Platforms\' Geographic Distribution Strategies: The Role of Color in Geotargeting',
                     url: 'https://raw.githubusercontent.com/emamoncio/academic_website/main/papers/published/DigitalPlatformsGeogDist.pdf'
                 },
                 {
-                    filename: 'DistributedProductivities.pdf',
-                    title: 'Screen Quota Reduction and Film Distribution in Korea (Distributed Productivities)',
-                    url: 'https://raw.githubusercontent.com/emamoncio/academic_website/main/papers/published/DistributedProductivities.pdf'
-                },
-                {
-                    filename: 'EntrepreneurshipTraining.pdf',
+                   
                     title: 'Entrepreneurship Trainings and Human Capital Endowment: When Learning from External Sources Does (Not) Increase Performance',
                     url: 'https://raw.githubusercontent.com/emamoncio/academic_website/main/papers/published/EntrepreneurshipTraining.pdf'
                 }
@@ -889,22 +884,22 @@
 
             const workingPapers = [
                 {
-                    filename: 'BeyondPrettyFace.pdf',
+                   
                     title: 'Beyond the Pretty Face: Unmasking the True Power—and Limits—of Design Innovation',
                     url: 'https://raw.githubusercontent.com/emamoncio/academic_website/main/papers/working/BeyondPrettyFace.pdf'
                 },
                 {
-                    filename: 'FutureUnderGlass.pdf',
+                    
                     title: 'The Future is Under the Glass: Digital Design Protection and Appropriation Strategy',
                     url: 'https://raw.githubusercontent.com/emamoncio/academic_website/main/papers/working/FutureUnderGlass.pdf'
                 },
                 {
-                    filename: 'Maori_TK.pdf',
+                    
                     title: 'The Use and Protection of Māori Traditional Knowledge in Existing IP Rights',
                     url: 'https://raw.githubusercontent.com/emamoncio/academic_website/main/papers/working/Maori_TK.pdf'
                 },
                 {
-                    filename: 'WhyLanguageMatters.pdf',
+                    
                     title: 'Entrepreneurial Presence on Social Media Platforms in Sub-Saharan Africa: Why Language Matters',
                     url: 'https://raw.githubusercontent.com/emamoncio/academic_website/main/papers/working/WhyLanguageMatters.pdf'
                 }
@@ -922,7 +917,7 @@
                         return (
                             <div>
                                 <h2>{PORTFOLIO_CONFIG.name}</h2>
-                                <p>Welcome to my academic portfolio. Click the Start button to explore my research, teaching, and background.</p>
+                                <p> Welcome to my academic portfolio. <br> Email: amoncio.egbert@its.uni-frankfurt.de <br> Click the Start button to explore my research, teaching, and background.</p>
                             </div>
                         );
 
@@ -1132,7 +1127,7 @@
                     <div className="taskbar">
                         <div className="taskbar-left">
                             <div className="start-button" onClick={() => setStartMenuOpen(!startMenuOpen)}>
-                                <span style={{ fontSize: '20px' }}>🪟</span>
+                                <img src="data:image/webp;base64,UklGRiwEAABXRUJQVlA4WAoAAAAwAAAAHwAAHwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZBTFBIPwAAAAEPMP8REYJNbe1NvvSxhxULCOho4kRLJEUSE/9IMxDR/0XAQ6cBrp6vtISDllpoaR0t+/5P27EWMbQOWDnuAQBWUDgg9gEAALAKAJ0BKiAAIAA+USKPRKOiIZQFVDgFBLYAXZl64hmzfcDJA6mf+AxAH6Uf4z+q8FBvgHlDfsd8En7DewB+pLxi/afxmcpX/ZtZezP/qpWv+lzd/i4fPYgBdD5PjEAA/v+dHn8HC3FX61FPT9xqVKXv8k6wXuwyzWrDV1VVwnH5e3gM3DJ5VMMlWsTR3a/Kd5Zv1YTQ3oJU177Gnb+/mKxSGHrh4/uwwrwncxof/2Dd/dSQz4/6unyPmJ3b5C//1/zi86FGahtK/RsNMglipZUv6FexeIGOpgHVg//+ZRN8f63+PKfwgbhda9eTQ9xel6W//E/o3s4NbKYv+oUQW8u9H/JLv+LGNfqp//WBty5lZ34Hpd432/4PnSGV//a+yT6vaFhc+mk/ceCf8o96idbhrgwdf/w19JuL+GV/AuFP0bD/xpzY8Qy01OlKOx0nmNYVy+vMVrwxOEZ5E/jaoW3wv/4Ir+z1Ljx/y6e8jjSKb/RzQ06Jm84qxh4fM3XTP+MzaEB0DmlhPz3kP4KGC3/8mIv8T/zX/misr0n+Jje4IfEJZxDvCArOBluL6qEDAk9/2EV/odYr62l/+ozn/0NVBl+v6Ujr8DGrttX5Xv/l/3UTrcNcGF0v+RX3JYyn/DMC1y6e290QrKwUfYNgX3PG9snAAAA=" alt="Windows" style={{ width: '20px', height: '20px' }} />
                                 <span>Start</span>
                             </div>
                         </div>
